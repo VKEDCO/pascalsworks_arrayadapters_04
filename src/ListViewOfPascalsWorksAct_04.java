@@ -29,7 +29,7 @@ public class ListViewOfPascalsWorksAct_04 extends ListActivity {
         //setContentView(R.layout.list_view_of_pascals_works_act_layout_04);
         
         Resources res = this.getResources();
-        mPascalsTitles = res.getStringArray(R.array.pascals_titles);
+        //mPascalsTitles = res.getStringArray(R.array.pascals_titles);
         ArrayAdapter<CharSequence> adptr
 			= ArrayAdapter.createFromResource(this, 
 					R.array.pascals_titles,
